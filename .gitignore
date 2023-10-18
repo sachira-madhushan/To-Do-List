@@ -1,0 +1,32 @@
+# Ignore the build/ directory and its contents
+build/
+
+# Ignore the .dart_tool/ directory and its contents
+.dart_tool/
+
+# Ignore the .pub/ directory and its contents
+.pub/
+
+# Ignore IDE-specific files and directories
+.idea/
+.vscode/
+
+# Ignore Android-specific files and directories
+/android/gradle-wrapper.properties
+/android/local.properties
+/android/app/debug
+/android/app/release
+/android/build/
+/android/key.properties
+
+# Ignore iOS-specific files and directories
+/ios/Pods/
+/ios/Podfile.lock
+/ios/Podfile
+
+# Ignore your Flutter generated files
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pubspec.lock
+/pubspec.yaml.lock
